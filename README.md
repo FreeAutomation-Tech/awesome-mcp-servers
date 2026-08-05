@@ -47,6 +47,7 @@ python tools/mcp-config-generator.py filesystem github brave-search
 | [SQLite](servers/community/sqlite.md) | SQLite database query and management | `query`, `execute`, `list_tables` | `npx -y @modelcontextprotocol/server-sqlite /path/to/db` |
 | [PostgreSQL](servers/community/postgres.md) | PostgreSQL database access | `query`, `execute`, `describe_table` | `npx -y @modelcontextprotocol/server-postgres` + `DATABASE_URL` |
 | [Docker](servers/community/docker.md) | Container and image management | `list_containers`, `run_container`, `container_logs` | `npx -y @modelcontextprotocol/server-docker` |
+| [RunAPI](servers/community/runapi.md) | Model discovery, pricing checks, and media task creation through RunAPI | `list_models`, `create_task`, `get_task` | `npx -y @runapi.ai/mcp` + `RUNAPI_API_KEY` |
 | [Sentry](servers/community/sentry.md) | Error tracking and issue management | `list_issues`, `get_issue`, `search_issues` | `npx -y @modelcontextprotocol/server-sentry` + `SENTRY_AUTH_TOKEN` |
 
 ### Featured (from FreeAutomation-Tech)
