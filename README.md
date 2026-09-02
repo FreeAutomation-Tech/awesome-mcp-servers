@@ -48,6 +48,7 @@ python tools/mcp-config-generator.py filesystem github brave-search
 | [PostgreSQL](servers/community/postgres.md) | PostgreSQL database access | `query`, `execute`, `describe_table` | `npx -y @modelcontextprotocol/server-postgres` + `DATABASE_URL` |
 | [Docker](servers/community/docker.md) | Container and image management | `list_containers`, `run_container`, `container_logs` | `npx -y @modelcontextprotocol/server-docker` |
 | [Sentry](servers/community/sentry.md) | Error tracking and issue management | `list_issues`, `get_issue`, `search_issues` | `npx -y @modelcontextprotocol/server-sentry` + `SENTRY_AUTH_TOKEN` |
+| [BulkPublish](servers/community/bulkpublish.md) | Approval-first social content adaptation, scheduling, and publishing | social publishing tools | Remote MCP: `https://mcp.bulkpublish.com/mcp` |
 
 ### Featured (from FreeAutomation-Tech)
 
