@@ -49,6 +49,8 @@ python tools/mcp-config-generator.py filesystem github brave-search
 | [Docker](servers/community/docker.md) | Container and image management | `list_containers`, `run_container`, `container_logs` | `npx -y @modelcontextprotocol/server-docker` |
 | [Sentry](servers/community/sentry.md) | Error tracking and issue management | `list_issues`, `get_issue`, `search_issues` | `npx -y @modelcontextprotocol/server-sentry` + `SENTRY_AUTH_TOKEN` |
 
+| [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | Local-first video composition and editing from editable plans | `edit_concat`, `edit_burnsubs`, `plan_validate` | `node /path/to/Orkas-VideoStudio/packages/mcp/dist/index.js` after source build |
+
 ### Featured (from FreeAutomation-Tech)
 
 | Server | Description | From |
