@@ -48,6 +48,7 @@ python tools/mcp-config-generator.py filesystem github brave-search
 | [PostgreSQL](servers/community/postgres.md) | PostgreSQL database access | `query`, `execute`, `describe_table` | `npx -y @modelcontextprotocol/server-postgres` + `DATABASE_URL` |
 | [Docker](servers/community/docker.md) | Container and image management | `list_containers`, `run_container`, `container_logs` | `npx -y @modelcontextprotocol/server-docker` |
 | [Sentry](servers/community/sentry.md) | Error tracking and issue management | `list_issues`, `get_issue`, `search_issues` | `npx -y @modelcontextprotocol/server-sentry` + `SENTRY_AUTH_TOKEN` |
+| [ContextStream](servers/community/contextstream.md) | Shared project context for AI coding agents — hosted MCP with code search plus decisions, lessons, and plans | `search`, `context`, `capture_plan` | Hosted: `https://mcp.contextstream.io/mcp` or `npx -y @contextstream/mcp-server` |
 
 ### Featured (from FreeAutomation-Tech)
 
