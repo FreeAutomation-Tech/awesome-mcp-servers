@@ -43,6 +43,7 @@ python tools/mcp-config-generator.py filesystem github brave-search
 
 | Server | Description | Tools | Config |
 |--------|-------------|-------|--------|
+| [Statsnet](servers/community/statsnet.md) | Background check any company in the world: registration, executives, courts and finances. | company lookup | `https://statsnet.co/mcp` |
 | [Memory](servers/community/memory.md) | Persistent key-value memory across sessions | `store_memory`, `recall_memory`, `search_memories` | `npx -y @modelcontextprotocol/server-memory` |
 | [SQLite](servers/community/sqlite.md) | SQLite database query and management | `query`, `execute`, `list_tables` | `npx -y @modelcontextprotocol/server-sqlite /path/to/db` |
 | [PostgreSQL](servers/community/postgres.md) | PostgreSQL database access | `query`, `execute`, `describe_table` | `npx -y @modelcontextprotocol/server-postgres` + `DATABASE_URL` |
